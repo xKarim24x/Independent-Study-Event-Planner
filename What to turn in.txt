@@ -1,0 +1,13 @@
+You need to do a 1 page write up that has as deliverables:
+
+~ design document
+
+~ test cases (passed and failed)
+
+~ lessons learned
+
+~ presentation slides
+
+~ source code
+
+~ working system 
