@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/appName"
         android:layout_width="255dp"
         android:layout_height="98dp"
         android:fontFamily="sans-serif-black"
@@ -22,26 +23,37 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="156dp"
-        android:layout_height="81dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
         android:text="Create Event Plan"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="156dp"
-        android:layout_height="98dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
         android:text="Continue Planning..."
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="306dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="159dp"
-        android:layout_height="95dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
         android:text="Delete Event Plan"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="423dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
