@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/Desktop/Independent-Study-Event-Planner/app/src/main/res/layout/activity_main.xml" value="0.13677536231884058" />
+        <entry key="..\:/Users/HP/Desktop/Independent-Study-Event-Planner/app/src/main/res/drawable/create_event_button.xml" value="0.4453125" />
+        <entry key="..\:/Users/HP/Desktop/Independent-Study-Event-Planner/app/src/main/res/drawable/ic_baseline_view_day_24.xml" value="0.4453125" />
+        <entry key="..\:/Users/HP/Desktop/Independent-Study-Event-Planner/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/HP/Desktop/Independent-Study-Event-Planner/app/src/main/res/layout/activity_second.xml" value="0.42916666666666664" />
       </map>
     </option>
   </component>

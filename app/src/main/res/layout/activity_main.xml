@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FirstActivity"
+    android:background="#fffff">
 
     <TextView
         android:layout_width="255dp"
@@ -20,19 +21,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.025" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="156dp"
-        android:layout_height="81dp"
-        android:text="Create Event Plan"
-        tools:layout_editor_absoluteX="127dp"
+    <TextView
+        android:id="@+id/createEventPlanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/create_event_button"
+        android:gravity="center"
+        android:onClick="eventButtonOnClick"
+        android:padding="10dp"
+        android:text="Create Event&#10;Plan"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="208dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="156dp"
-        android:layout_height="98dp"
-        android:text="Continue Planning..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Continue&#10;Planning..."
         tools:layout_editor_absoluteX="127dp"
         tools:layout_editor_absoluteY="306dp" />
 
@@ -40,7 +50,7 @@
         android:id="@+id/button3"
         android:layout_width="159dp"
         android:layout_height="95dp"
-        android:text="Delete Event Plan"
+        android:text="Delete Event&#10;Plan"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="423dp" />
 
